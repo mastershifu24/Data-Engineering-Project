@@ -1,0 +1,74 @@
+ERROR:root:Error occurred during ETL process: 
+Traceback (most recent call last):
+  File "c:\Users\hurri\OneDrive\Desktop\Data Engineering Projects\.vscode\data-engineering-project\scripts\etl.py", line 50, in <module>
+    data = extract_data(file_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hurri\OneDrive\Desktop\Data Engineering Projects\.vscode\data-engineering-project\scripts\etl.py", line 25, in extract_data
+    df = pd.read_csv(file_path)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data-engineering-project/data/movies.csv'
+ERROR:root:File not found: ../data/movies.csv
+ERROR:root:Error occurred during ETL process: 
+Traceback (most recent call last):
+  File "c:\Users\hurri\OneDrive\Desktop\Data Engineering Projects\.vscode\data-engineering-project\scripts\etl.py", line 58, in <module>
+    data = extract_data(file_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hurri\OneDrive\Desktop\Data Engineering Projects\.vscode\data-engineering-project\scripts\etl.py", line 15, in extract_data
+    df = pd.read_csv(file_path)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/movies.csv'
+ERROR:root:File not found: C:\Users\hurri\OneDrive\Desktop\Data Engineering Projects\data-engineering-project\data\movies.csv
+ERROR:root:Error occurred during ETL process: 
+Traceback (most recent call last):
+  File "c:\Users\hurri\OneDrive\Desktop\Data Engineering Projects\.vscode\data-engineering-project\scripts\etl.py", line 58, in <module>
+    data = extract_data(file_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\hurri\OneDrive\Desktop\Data Engineering Projects\.vscode\data-engineering-project\scripts\etl.py", line 15, in extract_data
+    df = pd.read_csv(file_path)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\hurri\anaconda3\Lib\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\hurri\\OneDrive\\Desktop\\Data Engineering Projects\\data-engineering-project\\data\\movies.csv'
