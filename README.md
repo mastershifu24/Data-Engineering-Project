@@ -1,0 +1,2 @@
+This project is a data engineering pipeline built with Python, pandas, and SQLAlchemy. It processes movie ratings data by extracting information from CSV files, performing data cleaning to handle missing values and data types, aggregating the data to compute average ratings per movie, and finally loading the results into a SQLite database. The pipeline ensures data integrity and provides insights into movie popularity based on user ratings.
+
